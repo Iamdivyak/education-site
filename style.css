@@ -1,0 +1,91 @@
+*{
+    color: #06283D;
+    text-align: center;
+
+}
+.bg{
+    background-image: url("images/pexels-vlada-karpovich-4050290.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+.bg h1{
+   padding-top: 100px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 44px;
+
+}
+.bg p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 50px;
+}
+.bg button{
+    color: aliceblue;
+}
+.right-btn{
+    margin-left: 20px;
+    
+}
+.navbar-brand{
+    font-size: 40px !important;
+}
+.nav-link{
+    color: #06283D !important;
+
+}
+.nav-link:hover{
+   color: #a1a6a8 !important;
+}
+h2{
+   
+    font-size: 34px !important;
+    font-weight: 700 !important;
+    padding-bottom: 20px !important;
+    color: #0d6efd;
+}
+h3{
+    color: #40a4e7;
+    font-size: 26px !important;
+}
+
+.my-col-1{
+    background-color: #ebf9ff;
+    border-radius: 5px;
+}
+.my-col-1 p{
+    color: #06283D;
+    font-size: 18px;
+
+}
+.my-col-1:hover{
+    background-color: #e4e9ec;
+    border-radius: 5px;
+}
+
+.my-h2 h2{
+    color: #40a4e7;;
+}
+.course{
+    background-color: #ebf9ff;
+    padding: 30px;
+  
+}
+footer{
+    background-color: #ebf9ff;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    .my-col-1{
+        max-width: 80%;
+        background-color: #ebf9ff;
+        border-radius: 5px;
+        margin: 20px auto!important;    
+    } 
+    
+}
+
